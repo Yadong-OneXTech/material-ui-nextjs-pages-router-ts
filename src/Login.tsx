@@ -32,7 +32,7 @@ export const MobileLoginDrawer: FC<MobileLoginDrawerProps> = (props) => {
       <Global
         styles={{
           '.auth-login-swipe-drawer > .MuiPaper-root': {
-            height: 'max-content',
+            height: `calc(50% - ${drawerBleeding}px)`,
             overflow: 'visible',
           },
         }}
