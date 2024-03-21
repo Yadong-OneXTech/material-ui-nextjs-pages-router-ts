@@ -36,6 +36,7 @@ export const MobileLoginDrawer: FC<MobileLoginDrawerProps> = (props) => {
             // maxHeight: '50%',
             minHeight: 310,
             maxHeight: 472,
+            height: 'max-content',
             // height: ref?.current?.clientHeight ? (ref?.current?.clientHeight + drawerBleeding) : '50%',
             overflow: 'visible',
           },
