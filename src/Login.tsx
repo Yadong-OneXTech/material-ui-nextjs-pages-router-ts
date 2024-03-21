@@ -34,8 +34,8 @@ export const MobileLoginDrawer: FC<MobileLoginDrawerProps> = (props) => {
           '.auth-login-swipe-drawer > .MuiPaper-root': {
             // minheight: `calc(50% - ${drawerBleeding}px)`,
             // maxHeight: '50%',
-            minHeight: 310,
-            maxHeight: 472,
+            // minHeight: 310,
+            // maxHeight: 472,
             height: 'fit-content',
             // height: ref?.current?.clientHeight ? (ref?.current?.clientHeight + drawerBleeding) : '50%',
             overflow: 'visible',
@@ -94,7 +94,8 @@ export const MobileLoginDrawer: FC<MobileLoginDrawerProps> = (props) => {
           sx={(theme) => ({
             backgroundColor:
               theme.palette.mode === 'light' ? '#fff' : grey[800],
-            height: '100%',
+            // height: '100%',
+            height: 'fit-content',
             mt: 2,
             overflow: 'auto',
             pb: 2,
